@@ -15,8 +15,8 @@
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="4dp"
-                android:paddingVertical="4dp"
+                android:paddingLeft="@dimen/dm4"
+                android:paddingVertical="@dimen/dm4"
                 android:paddingRight="52dp"
                 >
 
@@ -24,9 +24,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingRight="62dp"
-                    android:paddingLeft="12dp"
+                    android:paddingLeft="@dimen/dm16"
                     android:paddingTop="10dp"
-                    android:paddingBottom="12dp"
+                    android:paddingBottom="@dimen/dm12"
                     >
 
                     <TextView
@@ -34,7 +34,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/app_name"
                         android:textColor="@color/white"
-                        android:textSize="22sp"
+                        android:textSize="@dimen/ln22"
                         android:fontFamily="@font/ys_medium"/>
 
                 </FrameLayout>
@@ -47,59 +47,59 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:paddingHorizontal="16dp"
-        android:paddingTop="8dp"
+        android:paddingHorizontal="@dimen/dm16"
+        android:paddingTop="@dimen/dm8"
         android:paddingBottom="28dp">
 
         <Button
             android:id="@+id/search_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/dm16"
             android:layout_weight="1"
             android:backgroundTint="@color/white"
             android:fontFamily="@font/ys_medium"
             android:text="Поиск"
             android:textColor="@color/black"
-            android:textSize="22sp"
-            app:cornerRadius="16dp"
+            android:textSize="@dimen/ln22"
+            app:cornerRadius="500dp"
             app:icon="@drawable/ic_search"
             app:iconGravity="textStart"
-            app:iconPadding="8dp"
+            app:iconPadding="@dimen/dm8"
             app:iconTint="@color/black" />
 
         <Button
             android:id="@+id/mediatech_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/dm16"
             android:layout_weight="1"
             android:backgroundTint="@color/white"
             android:fontFamily="@font/ys_medium"
             android:text="Медиатека"
             android:textColor="@color/black"
-            android:textSize="22sp"
-            app:cornerRadius="16dp"
+            android:textSize="@dimen/ln22"
+            app:cornerRadius="@dimen/dm16"
             app:icon="@drawable/ic_music"
             app:iconGravity="textStart"
-            app:iconPadding="8dp"
+            app:iconPadding="@dimen/dm8"
             app:iconTint="@color/black" />
 
         <Button
             android:id="@+id/settings_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/dm16"
             android:layout_weight="1"
             android:backgroundTint="@color/white"
             android:fontFamily="@font/ys_medium"
             android:text="Настройки"
             android:textColor="@color/black"
-            android:textSize="22sp"
-            app:cornerRadius="16dp"
+            android:textSize="@dimen/ln22"
+            app:cornerRadius="@dimen/dm16"
             app:icon="@drawable/ic_settings"
             app:iconGravity="textStart"
-            app:iconPadding="8dp"
+            app:iconPadding="@dimen/dm8"
             app:iconTint="@color/black" />
 
     </LinearLayout>

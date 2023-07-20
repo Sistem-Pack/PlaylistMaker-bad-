@@ -15,9 +15,9 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="4dp"
-            android:paddingVertical="4dp"
-            android:paddingRight="52dp"
+            android:paddingLeft="@dimen/dm4"
+            android:paddingVertical="@dimen/dm4"
+            android:paddingRight="@dimen/dm52"
             >
 
             <LinearLayout
@@ -28,7 +28,7 @@
                 <FrameLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="12dp"
+                    android:padding="@dimen/dm12"
                     android:foreground="?attr/selectableItemBackground">
 
                     <ImageView
@@ -43,8 +43,8 @@
                 <FrameLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingVertical="12dp"
-                    android:paddingLeft="12dp"
+                    android:paddingVertical="@dimen/dm12"
+                    android:paddingLeft="@dimen/dm12"
                     android:paddingRight="86dp">
 
                 <TextView
@@ -52,7 +52,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/settings_title"
                     android:textColor="@color/black"
-                    android:textSize="22sp"
+                    android:textSize="@dimen/ln22"
                     android:fontFamily="@font/ys_medium"/>
                 </FrameLayout>
 
@@ -66,22 +66,22 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:paddingHorizontal="12dp"
+        android:paddingHorizontal="@dimen/dm12"
         android:paddingTop="24dp">
 
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingVertical="21dp">
+            android:paddingVertical="@dimen/dm21">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/dark_theme"
                     android:textColor="@color/black"
-                    android:textSize="22sp"
+                    android:textSize="@dimen/ln22"
                     android:fontFamily="@font/ys_medium"
-                    android:paddingLeft="16dp"
+                    android:paddingLeft="@dimen/dm16"
                     android:paddingRight="44dp" />
 
             <Switch
@@ -95,7 +95,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingVertical="21dp"
+            android:paddingVertical="@dimen/dm21"
 >
 
             <TextView
@@ -104,8 +104,8 @@
                 android:text="@string/send"
                 android:textColor="@color/black"
                 android:layout_gravity="start"
-                android:paddingLeft="16dp"
-                android:textSize="22sp"
+                android:paddingLeft="@dimen/dm16"
+                android:textSize="@dimen/ln22"
                 android:fontFamily="@font/ys_medium"/>
 
             <ImageView
@@ -120,7 +120,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingVertical="21dp">
+            android:paddingVertical="@dimen/dm21">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -128,8 +128,8 @@
                 android:text="@string/support"
                 android:layout_gravity="start"
                 android:textColor="@color/black"
-                android:paddingLeft="16dp"
-                android:textSize="22sp"
+                android:paddingLeft="@dimen/dm16"
+                android:textSize="@dimen/ln22"
                 android:fontFamily="@font/ys_medium"/>
 
             <ImageView
@@ -144,7 +144,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingVertical="21dp">
+            android:paddingVertical="@dimen/dm21">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -152,8 +152,8 @@
                 android:text="@string/privacy"
                 android:textColor="@color/black"
                 android:layout_gravity="start"
-                android:paddingLeft="16dp"
-                android:textSize="22sp"
+                android:paddingLeft="@dimen/dm16"
+                android:textSize="@dimen/ln22"
                 android:fontFamily="@font/ys_medium"/>
 
             <ImageView
