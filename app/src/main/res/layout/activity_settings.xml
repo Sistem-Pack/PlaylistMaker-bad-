@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/white"
     tools:context=".MainActivity">
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/dm4"
-            android:paddingVertical="@dimen/dm4"
-            android:paddingRight="@dimen/dm52"
-            >
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -35,6 +22,7 @@
                         android:id="@+id/back_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:contentDescription="@string/null_string"
                         android:src="@drawable/arrow_back">
                     </ImageView>
                 </FrameLayout>
@@ -44,8 +32,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingVertical="@dimen/dm12"
-                    android:paddingLeft="@dimen/dm12"
-                    android:paddingRight="86dp">
+                    android:paddingStart="@dimen/dm12"
+                    android:paddingEnd="86dp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -58,9 +46,8 @@
 
             </LinearLayout>
 
-        </FrameLayout>
 
-    </FrameLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -75,14 +62,14 @@
             android:paddingVertical="@dimen/dm21">
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/dark_theme"
                     android:textColor="@color/black"
                     android:textSize="@dimen/ln22"
                     android:fontFamily="@font/ys_medium"
-                    android:paddingLeft="@dimen/dm16"
-                    android:paddingRight="44dp" />
+                    android:paddingStart="@dimen/dm16"
+                    android:paddingEnd="44dp" />
 
             <Switch
                 android:layout_width="wrap_content"
@@ -104,7 +91,8 @@
                 android:text="@string/send"
                 android:textColor="@color/black"
                 android:layout_gravity="start"
-                android:paddingLeft="@dimen/dm16"
+                android:paddingStart="@dimen/dm16"
+                android:paddingEnd="@dimen/dm16"
                 android:textSize="@dimen/ln22"
                 android:fontFamily="@font/ys_medium"/>
 
@@ -112,6 +100,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
+                android:contentDescription="@string/null_string"
                 android:src="@drawable/share">
             </ImageView>
 
@@ -128,7 +117,8 @@
                 android:text="@string/support"
                 android:layout_gravity="start"
                 android:textColor="@color/black"
-                android:paddingLeft="@dimen/dm16"
+                android:paddingStart="@dimen/dm16"
+                android:paddingEnd="@dimen/dm16"
                 android:textSize="@dimen/ln22"
                 android:fontFamily="@font/ys_medium"/>
 
@@ -136,6 +126,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
+                android:contentDescription="@string/null_string"
                 android:src="@drawable/operator">
             </ImageView>
 
@@ -152,7 +143,8 @@
                 android:text="@string/privacy"
                 android:textColor="@color/black"
                 android:layout_gravity="start"
-                android:paddingLeft="@dimen/dm16"
+                android:paddingStart="@dimen/dm16"
+                android:paddingEnd="@dimen/dm16"
                 android:textSize="@dimen/ln22"
                 android:fontFamily="@font/ys_medium"/>
 
@@ -160,6 +152,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
+                android:contentDescription="@string/null_string"
                 android:src="@drawable/arrow_forward">
             </ImageView>
 
